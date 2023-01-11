@@ -1,0 +1,42 @@
+/*noinspection CssUnknownTarget*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,900;1,100;1,300;1,400;1,500;1,600;1,900&family=Prosto+One&display=swap');
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+    font-size: 24px;
+    overflow-x: hidden;
+    color: aliceblue;
+    background-color: #131313;
+}
+
+::selection {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+::-moz-selection {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+header{
+    position: fixed;
+}
+
+.header-layout{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
