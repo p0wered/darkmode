@@ -16,7 +16,7 @@ html {
 }
 
 body{
-    font-size: 24px;
+    font-size: 20px;
     overflow-x: hidden;
     color: aliceblue;
     background-color: #131313;
@@ -32,6 +32,8 @@ body{
 
 header{
     position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #ffffff1a;
 }
 
 .header-layout{
@@ -39,4 +41,31 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+}
+
+header li{
+    padding: .625rem;
+}
+
+.bi-controller{
+    font-size: 42px;
+    aspect-ratio: 1;
+}
+
+.logo{
+    padding: .625rem;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    transition: 300ms;
 }

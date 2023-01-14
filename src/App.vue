@@ -2,8 +2,8 @@
   <header>
     <div class="container">
       <div class="header-layout">
-        <div>
-          <h1>X</h1>
+        <div class="logo">
+          <i class="bi bi-controller"></i>
         </div>
         <div>
           <ul>
@@ -16,9 +16,9 @@
         </div>
         <div>
           <ul>
-            <li><router-link :to="{name:'home'}">X</router-link></li>
-            <li><router-link :to="{name:'home'}">X</router-link></li>
-            <li><router-link :to="{name:'home'}">X</router-link></li>
+            <li><router-link :to="{name:'wishlist'}"><i class="bi bi-heart"></i></router-link></li>
+            <li><router-link :to="{name:'cart'}"><i class="bi bi-bag"></i></router-link></li>
+            <li><router-link :to="{name:'account'}"><i class="bi bi-person-circle"></i></router-link></li>
           </ul>
         </div>
       </div>
