@@ -93,9 +93,30 @@
 
 @keyframes menu-app-in {
     0% {
-        left: -100rem;
+        left: 40rem;
     }
     100% {
         left: 0;
+    }
+}
+
+@keyframes menu-app-out {
+    0% {
+        left: 0;
+    }
+    100%{
+        left: 40rem;
+    }
+}
+
+@media (min-width: 992px){
+    .homepage-main{
+        background-image: url("public/assets/homepage.png");
+    }
+}
+
+@media (max-width: 992px){
+    .homepage-main{
+        background-image: url("public/assets/homepage-mobile.jpg");
     }
 }

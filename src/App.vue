@@ -2,8 +2,8 @@
   <header>
     <div class="container">
       <div class="header-layout">
-        <div class="logo">
-          <i class="bi bi-controller"></i>
+        <div>
+          <img class="logo" src="public/assets/logo.png" alt="logo">
         </div>
         <div class="d-none d-lg-flex">
           <ul>
@@ -31,7 +31,7 @@
       </div>
     </div>
   </header>
-  <div class="mobile-menu d-lg-none" :style="{display: menuDisplay}">
+  <div class="mobile-menu d-lg-none" :style="{display:menuDisplay}">
     <ul>
       <li><router-link :to="{name:'home'}">HOME</router-link></li>
       <li><router-link :to="{name:'hardware'}">HARDWARE</router-link></li>

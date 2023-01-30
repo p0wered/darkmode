@@ -19,7 +19,7 @@ body{
     font-size: 18px;
     overflow-x: hidden;
     color: aliceblue;
-    background-color: #131313;
+    background-color: #1c1c1c;
 }
 
 ::selection {
@@ -35,8 +35,9 @@ header{
     width: 100%;
     border-bottom: 1px solid #ffffff1a;
     z-index: 999;
-    background-color: #7e7a75;
+    background-color: #131313;
     transition: 300ms;
+    height: 4rem;
 }
 
 .header-layout{
@@ -71,10 +72,18 @@ header li{
     height: 65px;
 }
 
+.logo:hover{
+    cursor: default;
+}
+
 header a{
     color: white;
     text-decoration: none;
     transition: 300ms;
+}
+
+header a:hover{
+    color: #ff7b00;
 }
 
 .menu-icon{
@@ -126,14 +135,22 @@ header a{
 }
 
 .mobile-menu{
-    position: relative;
     display: none;
+    position: relative;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100vh;
     transition: 300ms;
+    animation: ease-in-out 300ms menu-app-in;
+}
+
+.mobile-menu .menu-not-active{
     animation: cubic-bezier(.65,.05,.36,1) 300ms menu-app-in;
+}
+
+.mobile-menu .menu-active{
+    animation: cubic-bezier(.65,.05,.36,1) 300ms menu-app-out;
 }
 
 .mobile-menu ul{
@@ -156,5 +173,67 @@ header a{
 }
 
 .mobile-menu a:hover{
-    color: blue;
+    color: #ff7b00;
+}
+
+.homepage-main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 1px solid #ff7b00;
+}
+
+.homepage-text-box{
+    text-align: center;
+    height: 75%;
+}
+
+.fb-column-center{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.homepage-title{
+    font-size: 40px;
+    font-weight: 700;
+    padding: .25rem;
+}
+
+.homepage-desc{
+    font-size: 24px;
+    padding: .25rem;
+}
+
+.section-top{
+    padding-top: 4rem;
+}
+
+.buy-item-flexbox{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-evenly;
+}
+
+.buy-item{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding-right: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.buy-item:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.bi-chevron-right{
+    color: #ff7b00;
 }

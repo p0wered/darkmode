@@ -5,42 +5,42 @@ const routes = [
     {
         path: '/',
         name: 'home',
-        component: defineAsyncComponent(() => import('@/pages/HomePage'))
+        component: defineAsyncComponent(() => import('@/pages/HomePage.vue'))
     },
     {
         path: '/hardware',
         name: 'hardware',
-        component: defineAsyncComponent(() => import('@/pages/HardwarePage'))
+        component: defineAsyncComponent(() => import('@/pages/HardwarePage.vue'))
     },
     {
         path: '/accessories',
         name: 'accessories',
-        component: defineAsyncComponent(() => import('@/pages/AccessoriesPage'))
+        component: defineAsyncComponent(() => import('@/pages/AccessoriesPage.vue'))
     },
     {
         path: '/services',
         name: 'services',
-        component: defineAsyncComponent(() => import('@/pages/ServicesPage'))
+        component: defineAsyncComponent(() => import('@/pages/ServicesPage.vue'))
     },
     {
         path: '/about',
         name: 'about',
-        component: defineAsyncComponent(() => import('@/pages/AboutPage'))
+        component: defineAsyncComponent(() => import('@/pages/AboutPage.vue'))
     },
     {
         path: '/account',
         name: 'account',
-        component: defineAsyncComponent(() => import('@/pages/AboutPage'))
+        component: defineAsyncComponent(() => import('@/pages/AboutPage.vue'))
     },
     {
         path: '/wishlist',
         name: 'wishlist',
-        component: defineAsyncComponent(() => import('@/pages/WishlistPage'))
+        component: defineAsyncComponent(() => import('@/pages/WishlistPage.vue'))
     },
     {
         path: '/cart',
         name: 'cart',
-        component: defineAsyncComponent(() => import('@/pages/CartPage'))
+        component: defineAsyncComponent(() => import('@/pages/CartPage.vue'))
     },
 ]
 
