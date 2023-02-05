@@ -3,10 +3,10 @@
     <div class="container">
       <div class="header-layout">
         <div>
-          <img class="logo" src="public/assets/logo.png" alt="logo">
+          <img class="logo" src="/assets/logo.png" alt="logo">
         </div>
-        <div class="d-none d-lg-flex">
-          <ul>
+        <div class="d-none d-lg-flex" style="font-size: 16px;">
+          <ul style="padding: 0">
             <li><router-link :to="{name:'home'}">HOME</router-link></li>
             <li><router-link :to="{name:'hardware'}">HARDWARE</router-link></li>
             <li><router-link :to="{name:'accessories'}">ACCESSORIES</router-link></li>
@@ -14,8 +14,8 @@
             <li><router-link :to="{name:'about'}">ABOUT</router-link></li>
           </ul>
         </div>
-        <div class="d-none d-lg-flex">
-          <ul>
+        <div class="d-none d-lg-flex" style="font-size: 22px;">
+          <ul style="padding: 0">
             <li><router-link :to="{name:'wishlist'}"><i class="bi bi-heart"></i></router-link></li>
             <li><router-link :to="{name:'cart'}"><i class="bi bi-bag"></i></router-link></li>
             <li><router-link :to="{name:'account'}"><i class="bi bi-person-circle"></i></router-link></li>

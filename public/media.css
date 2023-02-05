@@ -109,14 +109,8 @@
     }
 }
 
-@media (min-width: 992px){
-    .homepage-main{
-        background-image: url("public/assets/homepage.png");
-    }
-}
-
 @media (max-width: 992px){
-    .homepage-main{
-        background-image: url("public/assets/homepage-mobile.jpg");
+    .homepage-text-box{
+        height: 90%;
     }
 }

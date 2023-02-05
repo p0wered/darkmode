@@ -1,0 +1,28 @@
+{
+  "data1": [
+    {
+      "title": "NEW REIZA BLADE 16",
+      "description": "PURE POWER IS ALMOST YOURS",
+      "buttonFirst": "LEARN MORE",
+      "buttonSecond": "BUY",
+      "urlDesktop": "url(/assets/banner-1.jpg)",
+      "urlMobile": "url(/assets/banner-1-mobile.jpg)"
+    },
+    {
+      "title": "REIZA BASILISK V3 PRO",
+      "description": "CUSTOMIZABLE WIRELESS GAMING MOUSE ",
+      "buttonFirst": "LEARN MORE",
+      "buttonSecond": "BUY",
+      "urlDesktop": "url(/assets/banner-2.jpg)",
+      "urlMobile": "url(/assets/banner-2-mobile.jpg)"
+    },
+    {
+      "title": "REIZA  16 & 18",
+      "description": "PURE POWER IS ALMOST YOURS",
+      "buttonFirst": "BAYONET 16",
+      "buttonSecond": "BAYONET 18",
+      "urlDesktop": "url(/assets/banner-3.jpg)",
+      "urlMobile": "url(/assets/banner-3-mobile.jpg)"
+    }
+  ]
+}
