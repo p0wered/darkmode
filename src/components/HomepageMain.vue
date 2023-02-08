@@ -1,5 +1,5 @@
 <template>
-  <section class="homepage-main section-top" :style="{backgroundImage: imageDesktop}">
+  <section class="homepage-main" :style="{backgroundImage: imageDesktop}">
     <div class="homepage-text-box fb-column-center">
       <h1 class="homepage-title">{{sectionTitle}}</h1>
       <p class="homepage-desc">{{sectionDesc}}</p>

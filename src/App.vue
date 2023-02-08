@@ -32,13 +32,21 @@
     </div>
   </header>
   <div class="mobile-menu d-lg-none" :style="{display:menuDisplay}">
-    <ul>
+    <ul class="main-menu-list">
       <li><router-link :to="{name:'home'}">HOME</router-link></li>
       <li><router-link :to="{name:'hardware'}">HARDWARE</router-link></li>
       <li><router-link :to="{name:'accessories'}">ACCESSORIES</router-link></li>
       <li><router-link :to="{name:'services'}">SERVICES</router-link></li>
       <li><router-link :to="{name:'about'}">ABOUT</router-link></li>
+      <ul class="side-menu-list fb-row-center">
+        <li><router-link :to="{name:'wishlist'}"><i class="bi bi-heart"></i></router-link></li>
+        <li><router-link :to="{name:'cart'}"><i class="bi bi-bag"></i></router-link></li>
+        <li><router-link :to="{name:'account'}"><i class="bi bi-person-circle"></i></router-link></li>
+      </ul>
     </ul>
+    <div>
+
+    </div>
   </div>
   <router-view></router-view>
 </template>

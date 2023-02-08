@@ -1,7 +1,7 @@
 {
   "data1": [
     {
-      "title": "NEW REIZA BLADE 16",
+      "title": "NEW RAZER BLADE 16",
       "description": "PURE POWER IS ALMOST YOURS",
       "buttonFirst": "LEARN MORE",
       "buttonSecond": "BUY",
@@ -9,20 +9,42 @@
       "urlMobile": "url(/assets/banner-1-mobile.jpg)"
     },
     {
-      "title": "REIZA BASILISK V3 PRO",
-      "description": "CUSTOMIZABLE WIRELESS GAMING MOUSE ",
+      "title": "STEELSERIES APEX 9 TKL",
+      "description": "POWERED BY THE SPEED OF LIGHT",
       "buttonFirst": "LEARN MORE",
       "buttonSecond": "BUY",
-      "urlDesktop": "url(/assets/banner-2.jpg)",
-      "urlMobile": "url(/assets/banner-2-mobile.jpg)"
+      "urlDesktop": "url(/assets/banner-2.png)",
+      "urlMobile": "url(/assets/banner-2-mobile.png)"
     },
     {
-      "title": "REIZA  16 & 18",
-      "description": "PURE POWER IS ALMOST YOURS",
-      "buttonFirst": "BAYONET 16",
-      "buttonSecond": "BAYONET 18",
-      "urlDesktop": "url(/assets/banner-3.jpg)",
-      "urlMobile": "url(/assets/banner-3-mobile.jpg)"
+      "title": "ASUS ROG THOR 1200W",
+      "description": "HARNESS THUNDER",
+      "buttonFirst": "LEARN MORE",
+      "buttonSecond": "BUY",
+      "urlDesktop": "url(/assets/banner-3.png)",
+      "urlMobile": "url(/assets/banner-3-mobile.png)"
+    }
+  ],
+  "data2": [
+    {
+      "leftPanelTitle": "GLORIUS GMMK2",
+      "leftPanelDesc": "THE SEQUEL WITH NO EQUAL",
+      "leftPanelButton": "LEARN MORE",
+      "urlLeftPanel": "url(/assets/sm-banner-1.png)",
+      "rightPanelTitle": "STEELSERIES APEX 9 TKL",
+      "rightPanelDesc": "POWERED BY THE SPEED OF LIGHT",
+      "rightPanelButton": "LEARN MORE",
+      "urlRightPanel": "url(/assets/sm-banner-1.png)"
+    },
+    {
+      "leftPanelTitle": "STEELSERIES APEX 9 TKL",
+      "leftPanelDesc": "POWERED BY THE SPEED OF LIGHT",
+      "leftPanelButton": "LEARN MORE",
+      "urlLeftPanel": "url(/assets/sm-banner-1.png)",
+      "rightPanelTitle": "STEELSERIES APEX 9 TKL",
+      "rightPanelDesc": "POWERED BY THE SPEED OF LIGHT",
+      "rightPanelButton": "LEARN MORE",
+      "urlRightPanel": "url(/assets/sm-banner-1.png)"
     }
   ]
 }
