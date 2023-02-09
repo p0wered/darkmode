@@ -105,7 +105,7 @@ header a:hover{
     width: 100%;
     border-radius: 3px;
     height: 8px;
-    background: #fff;
+    background: #848484;
     transition: all .3s;
     position: relative;
 }
@@ -148,7 +148,8 @@ header a:hover{
     height: 100vh;
     transition: 300ms;
     animation: ease-in-out 300ms menu-app-in;
-    background-color: #090909;
+    background-color: rgba(9, 9, 9, 0.7);
+    backdrop-filter: blur(15px);
 }
 
 .mobile-menu .menu-not-active{
@@ -264,11 +265,10 @@ header a:hover{
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    border-bottom: 1px solid #9146ff;
 }
 
 #line{
-    background-color: #9146ff;
+    background-color: white;
     width: 1px;
 }
 
@@ -278,10 +278,26 @@ header a:hover{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    text-align: center;
+    border-bottom: 1px solid #9146ff;
 }
 
 .panel-text{
-    padding: 3rem 1rem;
+    padding: 2.325rem 1rem;
     height: 100%;
     justify-content: flex-start;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), #0000);
+}
+
+.homepage-panel-title{
+    font-size: 30px;
+    font-weight: 900;
+    padding: .5rem;
+    margin: 0;
+    letter-spacing: 0.4rem;
+}
+
+.homepage-panel-desc{
+    font-size: 20px;
+    padding: .25rem;
 }
