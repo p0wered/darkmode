@@ -10,7 +10,6 @@
         </a>
       </div>
     </div>
-    <div id="line"></div>
     <div class="homepage-panel-item" :style="{backgroundImage: rightPanelUrl}">
       <div class="panel-text fb-column-center">
         <h3 class="homepage-panel-title">{{rightPanelTitle}}</h3>

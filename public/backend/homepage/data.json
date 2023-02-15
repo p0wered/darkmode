@@ -41,20 +41,26 @@
       "leftPanelDesc": "ATX MID-TOWER CASES",
       "leftPanelButton": "BUY",
       "urlLeftPanel": "url(/assets/sm-banner-3.png)",
-      "rightPanelTitle": "STEELSERIES APEX 9 TKL",
-      "rightPanelDesc": "POWERED BY THE SPEED OF LIGHT",
+      "rightPanelTitle": "KINGSTON FURY BEAST",
+      "rightPanelDesc": "UNLEASHING DDR5 PERFORMANCE",
       "rightPanelButton": "BUY",
-      "urlRightPanel": "url(/assets/sm-banner-1.png)"
+      "urlRightPanel": "url(/assets/sm-banner-4.jpg)"
     },
     {
-      "leftPanelTitle": "NZXT H7 SERIES",
-      "leftPanelDesc": "ATX MID-TOWER CASES",
+      "leftPanelTitle": "RAZER DOCK CHROMA",
+      "leftPanelDesc": "CONNECT. EXPAND. EMPOWER",
       "leftPanelButton": "BUY",
-      "urlLeftPanel": "url(/assets/sm-banner-3.png)",
+      "urlLeftPanel": "url(/assets/sm-banner-5.jpg)",
       "rightPanelTitle": "STEELSERIES APEX 9 TKL",
       "rightPanelDesc": "POWERED BY THE SPEED OF LIGHT",
       "rightPanelButton": "BUY",
       "urlRightPanel": "url(/assets/sm-banner-1.png)"
+    }
+  ],
+  "data3": [
+    {
+      "title": "GRAPHICS CARDS",
+      "desc": "New RTX 40-series are already here"
     }
   ]
 }
