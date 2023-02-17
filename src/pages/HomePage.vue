@@ -6,7 +6,6 @@
   <template v-for="item in section2" :key="item">
     <HomepagePanel :left-panel-title="item.leftPanelTitle" :right-panel-title="item.rightPanelTitle" :left-panel-desc="item.leftPanelDesc" :right-panel-desc="item.rightPanelDesc" :left-panel-btn="item.leftPanelButton" :right-panel-btn="item.rightPanelButton" :left-panel-url="item.urlLeftPanel" :right-panel-url="item.urlRightPanel"></HomepagePanel>
   </template>
-
 </template>
 
 <script>

@@ -336,3 +336,39 @@ header a:hover{
     padding: 2rem;
     text-align: center;
 }
+
+.hardware-title{
+    font-weight: 800;
+}
+
+.hardware-desc{
+    color: #848484;
+}
+
+.item-class-selection{
+    padding: 1rem 0;
+    justify-content: center;
+    background-color: rgb(26, 26, 26);
+}
+
+.hardware-item{
+    background-position: center top;
+    background-color: #090909;
+    background-size: cover;
+    height: 25rem;
+    width: 20rem;
+    margin: 1rem;
+    color: aliceblue;
+    justify-content: flex-end;
+    border-bottom: 1px solid #9146ff;
+
+}
+
+.hardware-item-inner{
+    text-align: center;
+    width: 100%;
+    height: 35%;
+    padding: 1rem;
+    background-color: #090909;
+    justify-content: center;
+}

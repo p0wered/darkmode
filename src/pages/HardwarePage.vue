@@ -4,15 +4,15 @@
     <div class="container">
       <div class="hardware-title-block">
         <h2 class="hardware-title">PC COMPONENTS</h2>
-        <p class="hardware-desc">Make your dream battlestation a reality with our gaming desktop solutions—engineered for
-          enthusiasts and designed for performance, highest reliability, and ultra-efficient power management."
+        <p class="hardware-desc">Make your dream battlestation a reality with gaming desktop solutions—engineered for
+          enthusiasts and designed for performance, highest reliability, and ultra-efficient power management
         </p>
       </div>
-      <div class="item-class-selection">
-        <template class="item-class-row" v-for="item in hardware" :key="item">
-          <HardwareSection></HardwareSection>
-        </template>
-      </div>
+    </div>
+    <div class="item-class-selection fb-row-center">
+      <template v-for="item in hardware" :key="item" >
+        <HardwareSection :hardware-title="item.hardwareTitle" :hardware-desc="item.hardwareDesc" :hardware-url="item.hardwareUrl"></HardwareSection>
+      </template>
     </div>
   </section>
 </template>

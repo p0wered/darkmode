@@ -59,8 +59,24 @@
   ],
   "data3": [
     {
-      "title": "GRAPHICS CARDS",
-      "desc": "New RTX 40-series are already here"
+      "hardwareTitle": "GRAPHICS CARDS",
+      "hardwareDesc": "New RTX 40-series GPUs",
+      "hardwareUrl": "url(/assets/gpu.png)"
+    },
+    {
+      "hardwareTitle": "PC CASES",
+      "hardwareDesc": "Definitive designs for discerning gamers",
+      "hardwareUrl": "url(/assets/gpu.png)"
+    },
+    {
+      "hardwareTitle": "MOTHERBOARDS",
+      "hardwareDesc": "New RTX 40-series GPUs",
+      "hardwareUrl": "url(/assets/gpu.png)"
+    },
+    {
+      "hardwareTitle": "GRAPHICS CARDS",
+      "hardwareDesc": "New RTX 40-series GPUs",
+      "hardwareUrl": "url(/assets/gpu.png)"
     }
   ]
 }
