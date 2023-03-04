@@ -9,8 +9,8 @@
 </template>
 
 <script>
-import HomepageMain from "@/components/HomepageMain.vue";
 import axios from "axios";
+import HomepageMain from "@/components/HomepageMain.vue";
 import HomepagePanel from "@/components/HomepagePanel.vue";
 export default {
   name: "HomePage",

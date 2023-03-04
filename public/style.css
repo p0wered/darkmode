@@ -150,6 +150,8 @@ header a:hover{
     animation: ease-in-out 300ms menu-app-in;
     background-color: rgba(9, 9, 9, 0.7);
     backdrop-filter: blur(15px);
+    z-index: 998;
+    touch-action: none;
 }
 
 .mobile-menu .menu-not-active{
@@ -202,6 +204,12 @@ header a:hover{
     transition: 300ms;
 }
 
+.homepage-main-btn{
+    width: 100%;
+    height: 82%;
+    position: absolute;
+    z-index: 1;
+}
 
 .homepage-text-box{
     text-align: center;
@@ -227,22 +235,14 @@ header a:hover{
     margin: 0;
     letter-spacing: 0.4rem;
     transition: 300ms;
-}
-
-.homepage-title:hover{
-    transform: scale(103%);
-    cursor: default;
+    z-index: 100;
 }
 
 .homepage-desc{
     font-size: 20px;
     padding: .25rem;
     transition: 300ms;
-}
-
-.homepage-desc:hover{
-    transform: scale(103%);
-    cursor: default;
+    z-index: 100;
 }
 
 .section-top{
@@ -253,23 +253,25 @@ header a:hover{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    z-index: 100;
 }
 
 .buy-item{
     font-size: 16px;
     color: aliceblue;
     display: flex;
+    justify-content: center;
     flex-direction: row;
     padding: 0 1rem;
     text-decoration: none;
     cursor: pointer;
     transition: 300ms;
+    z-index: 100;
 }
 
 .buy-item:hover{
-    color: aliceblue;
+    color: #c2c8ce;
     text-decoration: underline;
-    transform: scale(103%);
 }
 
 .bi-chevron-right{
@@ -297,6 +299,12 @@ header a:hover{
     text-align: center;
     border-bottom: 1px solid #9146ff;
     border-right: 1px solid #9146ff;
+    overflow: hidden;
+}
+
+.homepage-panel-btn{
+    width: 100%;
+    height: 100%;
 }
 
 .panel-text{
@@ -315,20 +323,10 @@ header a:hover{
     transition: 300ms;
 }
 
-.homepage-panel-title:hover{
-    transform: scale(103%);
-    cursor: default;
-}
-
 .homepage-panel-desc{
     font-size: 20px;
     padding: .25rem;
     transition: 300ms;
-}
-
-.homepage-panel-desc:hover{
-    transform: scale(103%);
-    cursor: default;
 }
 
 .hardware-title-block{
@@ -339,29 +337,48 @@ header a:hover{
 
 .hardware-title{
     font-weight: 800;
+    transition: 300ms;
 }
 
 .hardware-desc{
     color: #848484;
+    transition: 300ms;
 }
 
 .item-class-selection{
-    padding: 1rem 0;
-    justify-content: center;
     background-color: rgb(26, 26, 26);
+    padding: 1rem 0;
+    overflow-x: hidden;
 }
 
 .hardware-item{
     background-position: center top;
     background-color: #090909;
-    background-size: cover;
-    height: 25rem;
-    width: 20rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: calc(13rem + 10vw);
+    width: calc(10rem + 9vw);
     margin: 1rem;
     color: aliceblue;
     justify-content: flex-end;
     border-bottom: 1px solid #9146ff;
+    transition: 300ms;
+    overflow: hidden;
+}
 
+.hardware-item a{
+    color: aliceblue;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+.hardware-item a:hover{
+    color: #c2c8ce;
+}
+
+.hardware-item:hover{
+    transform: scale(103%);
+    background-size: 105%;
 }
 
 .hardware-item-inner{
@@ -371,4 +388,20 @@ header a:hover{
     padding: 1rem;
     background-color: #090909;
     justify-content: center;
+}
+
+.hardware-item-btn{
+    width: 100%;
+    height: 100%;
+}
+
+.selection-flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.selection-temp{
+    display: flex;
+    flex-direction: row;
 }

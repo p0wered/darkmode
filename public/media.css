@@ -118,6 +118,25 @@
         aspect-ratio: 4/3;
         border-right: none;
     }
+    .hardware-item{
+        height: 16rem;
+        width: 13.125rem;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .selection-flexbox{
+        flex-direction: column;
+        align-items: center;
+    }
+    .selection-temp{
+        width: 100%;
+        justify-content: center;
+    }
+    .hardware-item{
+        width: 100%;
+        height: calc(10rem + 24vw);
+    }
 }
 
 @media screen and (max-width: 576px){
@@ -130,5 +149,14 @@
     .panel-text{
         padding: 2rem 0.625rem;
         background: linear-gradient(rgba(0, 0, 0, 1), #0000);
+    }
+    .hardware-item{
+        margin: 1rem 0;
+        width: 100%;
+        height: 50vh;
+    }
+    .selection-temp{
+        width: 85%;
+        flex-direction: column;
     }
 }

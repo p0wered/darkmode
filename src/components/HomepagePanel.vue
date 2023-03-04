@@ -1,6 +1,7 @@
 <template>
-  <div class="homepage-panel-row" >
+  <div class="homepage-panel-row">
     <div class="homepage-panel-item" :style="{backgroundImage: leftPanelUrl}">
+      <a class="homepage-panel-btn" href="#"></a>
       <div class="panel-text fb-column-center">
         <h3 class="homepage-panel-title">{{leftPanelTitle}}</h3>
         <p class="homepage-panel-desc">{{leftPanelDesc}}</p>

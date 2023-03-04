@@ -8,14 +8,14 @@ const routes = [
         component: defineAsyncComponent(() => import('@/pages/HomePage.vue'))
     },
     {
-        path: '/hardware',
-        name: 'hardware',
-        component: defineAsyncComponent(() => import('@/pages/HardwarePage.vue'))
+        path: '/categories',
+        name: 'categories',
+        component: defineAsyncComponent(() => import('@/pages/CategoriesPage.vue'))
     },
     {
-        path: '/accessories',
-        name: 'accessories',
-        component: defineAsyncComponent(() => import('@/pages/AccessoriesPage.vue'))
+        path: '/software',
+        name: 'software',
+        component: defineAsyncComponent(() => import('@/pages/SoftwarePage.vue'))
     },
     {
         path: '/services',

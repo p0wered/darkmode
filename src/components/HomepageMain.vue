@@ -1,5 +1,6 @@
 <template>
   <section class="homepage-main" :style="{backgroundImage: imageDesktop}">
+    <a class="homepage-main-btn" href="#"></a>
     <div class="homepage-text-box fb-column-center">
       <h1 class="homepage-title">{{sectionTitle}}</h1>
       <p class="homepage-desc">{{sectionDesc}}</p>

@@ -8,8 +8,8 @@
         <div class="d-none d-lg-flex" style="font-size: 16px;">
           <ul style="padding: 0">
             <li><router-link :to="{name:'home'}">HOME</router-link></li>
-            <li><router-link :to="{name:'hardware'}">HARDWARE</router-link></li>
-            <li><router-link :to="{name:'accessories'}">ACCESSORIES</router-link></li>
+            <li><router-link :to="{name:'categories'}">CATEGORIES</router-link></li>
+            <li><router-link :to="{name:'software'}">SOFTWARE</router-link></li>
             <li><router-link :to="{name:'services'}">SERVICES</router-link></li>
             <li><router-link :to="{name:'about'}">ABOUT</router-link></li>
           </ul>
@@ -34,8 +34,8 @@
   <div class="mobile-menu d-lg-none" :style="{display:menuDisplay}">
     <ul class="main-menu-list">
       <li><router-link :to="{name:'home'}">HOME</router-link></li>
-      <li><router-link :to="{name:'hardware'}">HARDWARE</router-link></li>
-      <li><router-link :to="{name:'accessories'}">ACCESSORIES</router-link></li>
+      <li><router-link :to="{name:'categories'}">CATEGORIES</router-link></li>
+      <li><router-link :to="{name:'software'}">SOFTWARE</router-link></li>
       <li><router-link :to="{name:'services'}">SERVICES</router-link></li>
       <li><router-link :to="{name:'about'}">ABOUT</router-link></li>
       <ul class="side-menu-list fb-row-center">

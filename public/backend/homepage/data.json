@@ -57,26 +57,69 @@
       "urlRightPanel": "url(/assets/sm-banner-1.png)"
     }
   ],
-  "data3": [
+  "title": [
     {
-      "hardwareTitle": "GRAPHICS CARDS",
-      "hardwareDesc": "New RTX 40-series GPUs",
-      "hardwareUrl": "url(/assets/gpu.png)"
+      "blockTitle": "PC COMPONENTS",
+      "blockDesc": "Make your dream battlestation a reality with gaming desktop solutions—engineered for enthusiasts and designed for performance, highest reliability, and ultra-efficient power management"
     },
     {
-      "hardwareTitle": "PC CASES",
-      "hardwareDesc": "Definitive designs for discerning gamers",
+      "blockTitle": "PERIPHERALS",
+      "blockDesc": "The most powerful rigs mean nothing without the high-performance gear to match. Understand what it means to wield the unfair advantage as you experience industry-leading levels of precision, control, and immersion"
+    },
+    {
+      "blockTitle": "ACCESSORIES",
+      "blockDesc": "When it comes to crafting the perfect gaming experience, every detail counts. Whether you’re after more functionality, flair, or a combination of both, we’ve got the goods to round out your loadout."
+    }
+  ],
+
+  "selection": [
+    {
+      "hardwareTitle": "GRAPHICS CARDS",
       "hardwareUrl": "url(/assets/gpu.png)"
     },
     {
       "hardwareTitle": "MOTHERBOARDS",
-      "hardwareDesc": "New RTX 40-series GPUs",
-      "hardwareUrl": "url(/assets/gpu.png)"
+      "hardwareUrl": "url(/assets/mb.png)"
     },
     {
-      "hardwareTitle": "GRAPHICS CARDS",
-      "hardwareDesc": "New RTX 40-series GPUs",
-      "hardwareUrl": "url(/assets/gpu.png)"
+      "hardwareTitle": "PC CASES",
+      "hardwareUrl": "url(/assets/cases.png)"
+    },
+    {
+      "hardwareTitle": "LAPTOPS",
+      "hardwareUrl": "url(/assets/laptops.png)"
+    },
+    {
+      "hardwareTitle": "KEYBOARDS",
+      "hardwareUrl": "url(/assets/keyboards.png)"
+    },
+    {
+      "hardwareTitle": "MICE",
+      "hardwareUrl": "url(/assets/mice.png)"
+    },
+    {
+      "hardwareTitle": "HEADSETS",
+      "hardwareUrl": "url(/assets/headsets.png)"
+    },
+    {
+      "hardwareTitle": "MOUSE MATS",
+      "hardwareUrl": "url(/assets/mats.png)"
+    },
+    {
+      "hardwareTitle": "RGB COMPONENTS",
+      "hardwareUrl": "url(/assets/rgb.png)"
+    },
+    {
+      "hardwareTitle": "CAPTURE CARDS",
+      "hardwareUrl": "url(/assets/cards.png)"
+    },
+    {
+      "hardwareTitle": "WEBCAMS",
+      "hardwareUrl": "url(/assets/webcams.png)"
+    },
+    {
+      "hardwareTitle": "MICROPHONES",
+      "hardwareUrl": "url(/assets/micro.png)"
     }
   ]
 }
