@@ -35,6 +35,18 @@
         </div>
       </div>
     </div>
+    <div class="special">
+      <div class="special-title-box">
+        <h2 class="special-title">CHECK OUT OUR CUSTOMS</h2>
+        <p class="special-desc">For those seeking a truly unique setup, make it your own with a customized mouse and
+          mouse mat.
+        </p>
+        <a href="#" class="buy-item">
+          <p style="margin: 0">VIEW ALL</p>
+          <i class="bi bi-chevron-right"></i>
+        </a>
+      </div>
+    </div>
     <template v-for="item in hardware3.slice(2, 3)" :key="item">
       <CategoriesTitleBlock :block-title="item.blockTitle" :block-desc="item.blockDesc"></CategoriesTitleBlock>
     </template>

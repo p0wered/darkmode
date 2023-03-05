@@ -159,4 +159,7 @@
         width: 85%;
         flex-direction: column;
     }
+    .special-title-box{
+        padding: 2rem 1rem;
+    }
 }

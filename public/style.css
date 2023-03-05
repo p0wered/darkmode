@@ -405,3 +405,23 @@ header a:hover{
     display: flex;
     flex-direction: row;
 }
+
+.special{
+    height: 36rem;
+    width: 100%;
+    background-image: url("/assets/special.jpg");
+    background-position: center;
+}
+
+.special-title-box{
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.special-title{
+    font-weight: 800;
+}
+
+.special-desc{
+    color: #848484;
+}
