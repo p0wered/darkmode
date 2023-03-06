@@ -121,5 +121,25 @@
       "hardwareTitle": "MICROPHONES",
       "hardwareUrl": "url(/assets/micro.png)"
     }
+  ],
+  "software": [
+    {
+      "softwareTitle": "RAZER SYNAPSE",
+      "softwareDesc": "Maximize your unfair advantage with Razer Synapse, the unified cloud-based hardware configuration tool that takes your Razer devices to the next level",
+      "softwareUrl": "url(/assets/chroma.jpg)",
+      "softwareImage": "url(/assets/razer_id.png)"
+    },
+    {
+      "softwareTitle": "STEELSERIES ENGINE",
+      "softwareDesc": "Personalize the coloring effects across your devices including in-game reactive lighting for compatible Steelseries devices",
+      "softwareUrl": "url(/assets/steelseries.jpg)",
+      "softwareImage": "url(/assets/razer_id.png)"
+    },
+    {
+      "softwareTitle": "LOGITECH G HUB",
+      "softwareDesc": "Single portal for optimizing and customizing all your supported Logitech G gear: mice, keyboards, headsets, speakers, and webcams",
+      "softwareUrl": "url(/assets/chroma.jpg)",
+      "softwareImage": "url(/assets/razer_id.png)"
+    }
   ]
 }
