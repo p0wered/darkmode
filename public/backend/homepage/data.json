@@ -5,24 +5,24 @@
       "description": "PURE POWER IS ALMOST YOURS",
       "buttonFirst": "ALL LAPTOPS",
       "buttonSecond": "BUY",
-      "urlDesktop": "url(/assets/banner-1.jpg)",
-      "urlMobile": "url(/assets/banner-1-mobile.jpg)"
+      "urlDesktop": "url(/assets/banner-1.webp)",
+      "urlMobile": "url(/assets/banner-1-mobile.webp)"
     },
     {
       "title": "STEELSERIES APEX 9 TKL",
       "description": "POWERED BY THE SPEED OF LIGHT",
       "buttonFirst": "ALL KEYBOARDS",
       "buttonSecond": "BUY",
-      "urlDesktop": "url(/assets/banner-2.png)",
-      "urlMobile": "url(/assets/banner-2-mobile.png)"
+      "urlDesktop": "url(/assets/banner-2.webp)",
+      "urlMobile": "url(/assets/banner-2-mobile.webp)"
     },
     {
       "title": "ASUS ROG THOR 1200W",
       "description": "HARNESS THUNDER",
       "buttonFirst": "ALL PSUs",
       "buttonSecond": "BUY",
-      "urlDesktop": "url(/assets/banner-3.png)",
-      "urlMobile": "url(/assets/banner-3-mobile.png)"
+      "urlDesktop": "url(/assets/banner-3.webp)",
+      "urlMobile": "url(/assets/banner-3-mobile.webp)"
     }
   ],
   "data2": [
@@ -30,31 +30,31 @@
       "leftPanelTitle": "GLORIOUS GMMK2",
       "leftPanelDesc": "THE SEQUEL WITH NO EQUAL",
       "leftPanelButton": "BUY",
-      "urlLeftPanel": "url(/assets/sm-banner-1.png)",
+      "urlLeftPanel": "url(/assets/sm-banner-1.webp)",
       "rightPanelTitle": "iCUE AF120 RGB ELITE",
       "rightPanelDesc": " HIGH-PERFORMANCE 120MM PWM FANS",
       "rightPanelButton": "BUY",
-      "urlRightPanel": "url(/assets/sm-banner-2.png)"
+      "urlRightPanel": "url(/assets/sm-banner-2.webp)"
     },
     {
       "leftPanelTitle": "NZXT H7 SERIES",
       "leftPanelDesc": "ATX MID-TOWER CASES",
       "leftPanelButton": "BUY",
-      "urlLeftPanel": "url(/assets/sm-banner-3.png)",
+      "urlLeftPanel": "url(/assets/sm-banner-3.webp)",
       "rightPanelTitle": "KINGSTON FURY BEAST",
       "rightPanelDesc": "UNLEASHING DDR5 PERFORMANCE",
       "rightPanelButton": "BUY",
-      "urlRightPanel": "url(/assets/sm-banner-4.jpg)"
+      "urlRightPanel": "url(/assets/sm-banner-4.webp)"
     },
     {
       "leftPanelTitle": "RAZER DOCK CHROMA",
       "leftPanelDesc": "CONNECT. EXPAND. EMPOWER",
       "leftPanelButton": "BUY",
-      "urlLeftPanel": "url(/assets/sm-banner-5.jpg)",
+      "urlLeftPanel": "url(/assets/sm-banner-5.webp)",
       "rightPanelTitle": "STEELSERIES APEX 9 TKL",
       "rightPanelDesc": "POWERED BY THE SPEED OF LIGHT",
       "rightPanelButton": "BUY",
-      "urlRightPanel": "url(/assets/sm-banner-1.png)"
+      "urlRightPanel": "url(/assets/sm-banner-1.webp)"
     }
   ],
   "title": [
@@ -75,71 +75,71 @@
   "selection": [
     {
       "hardwareTitle": "GRAPHICS CARDS",
-      "hardwareUrl": "url(/assets/gpu.png)"
+      "hardwareUrl": "url(/assets/gpu.webp)"
     },
     {
       "hardwareTitle": "MOTHERBOARDS",
-      "hardwareUrl": "url(/assets/mb.png)"
+      "hardwareUrl": "url(/assets/mb.webp)"
     },
     {
       "hardwareTitle": "PC CASES",
-      "hardwareUrl": "url(/assets/cases.png)"
+      "hardwareUrl": "url(/assets/cases.webp)"
     },
     {
       "hardwareTitle": "LAPTOPS",
-      "hardwareUrl": "url(/assets/laptops.png)"
+      "hardwareUrl": "url(/assets/laptops.webp)"
     },
     {
       "hardwareTitle": "KEYBOARDS",
-      "hardwareUrl": "url(/assets/keyboards.png)"
+      "hardwareUrl": "url(/assets/keyboards.webp)"
     },
     {
       "hardwareTitle": "MICE",
-      "hardwareUrl": "url(/assets/mice.png)"
+      "hardwareUrl": "url(/assets/mice.webp)"
     },
     {
       "hardwareTitle": "HEADSETS",
-      "hardwareUrl": "url(/assets/headsets.png)"
+      "hardwareUrl": "url(/assets/headsets.webp)"
     },
     {
       "hardwareTitle": "MOUSE MATS",
-      "hardwareUrl": "url(/assets/mats.png)"
+      "hardwareUrl": "url(/assets/mats.webp)"
     },
     {
       "hardwareTitle": "RGB COMPONENTS",
-      "hardwareUrl": "url(/assets/rgb.png)"
+      "hardwareUrl": "url(/assets/rgb.webp)"
     },
     {
       "hardwareTitle": "CAPTURE CARDS",
-      "hardwareUrl": "url(/assets/cards.png)"
+      "hardwareUrl": "url(/assets/cards.webp)"
     },
     {
       "hardwareTitle": "WEBCAMS",
-      "hardwareUrl": "url(/assets/webcams.png)"
+      "hardwareUrl": "url(/assets/webcams.webp)"
     },
     {
       "hardwareTitle": "MICROPHONES",
-      "hardwareUrl": "url(/assets/micro.png)"
+      "hardwareUrl": "url(/assets/micro.webp)"
     }
   ],
   "software": [
     {
       "softwareTitle": "RAZER SYNAPSE",
       "softwareDesc": "Maximize your unfair advantage with Razer Synapse, the unified cloud-based hardware configuration tool that takes your Razer devices to the next level",
-      "softwareUrl": "url(/assets/chroma.jpg)",
-      "softwareImage": "url(/assets/razer_id.png)"
+      "softwareUrl": "url(/assets/chroma.webp)",
+      "softwareImage": "url(/assets/razer_id.webp)"
     },
     {
       "softwareTitle": "STEELSERIES ENGINE",
       "softwareDesc": "Personalize the coloring effects across your devices including in-game reactive lighting for compatible Steelseries devices",
-      "softwareUrl": "url(/assets/steelseries.jpg)",
-      "softwareImage": "url(/assets/razer_id.png)"
+      "softwareUrl": "url(/assets/steelseries.webp)",
+      "softwareImage": "url(/assets/steelseries_id.webp)"
     },
     {
       "softwareTitle": "LOGITECH G HUB",
       "softwareDesc": "Single portal for optimizing and customizing all your supported Logitech G gear: mice, keyboards, headsets, speakers, and webcams",
-      "softwareUrl": "url(/assets/chroma.jpg)",
-      "softwareImage": "url(/assets/razer_id.png)"
+      "softwareUrl": "url(/assets/logitech.webp)",
+      "softwareImage": "url(/assets/logitech_id.webp)"
     }
   ]
 }

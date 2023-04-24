@@ -3,14 +3,14 @@
     <div class="container">
       <div class="header-layout">
         <div>
-          <img class="logo" src="/assets/logo.png" alt="logo">
+          <img class="logo" src="/assets/logo.webp" alt="logo">
         </div>
         <div class="d-none d-lg-flex" style="font-size: 16px;">
           <ul style="padding: 0">
             <li><router-link :to="{name:'home'}">HOME</router-link></li>
             <li><router-link :to="{name:'categories'}">CATEGORIES</router-link></li>
             <li><router-link :to="{name:'software'}">SOFTWARE</router-link></li>
-            <li><router-link :to="{name:'services'}">SERVICES</router-link></li>
+            <li><router-link :to="{name:'store'}">STORE</router-link></li>
             <li><router-link :to="{name:'about'}">ABOUT</router-link></li>
           </ul>
         </div>
@@ -36,7 +36,7 @@
       <li><router-link :to="{name:'home'}">HOME</router-link></li>
       <li><router-link :to="{name:'categories'}">CATEGORIES</router-link></li>
       <li><router-link :to="{name:'software'}">SOFTWARE</router-link></li>
-      <li><router-link :to="{name:'services'}">SERVICES</router-link></li>
+      <li><router-link :to="{name:'store'}">STORE</router-link></li>
       <li><router-link :to="{name:'about'}">ABOUT</router-link></li>
       <ul class="side-menu-list fb-row-center">
         <li><router-link :to="{name:'wishlist'}"><i class="bi bi-heart"></i></router-link></li>

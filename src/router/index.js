@@ -18,9 +18,14 @@ const routes = [
         component: defineAsyncComponent(() => import('@/pages/SoftwarePage.vue'))
     },
     {
-        path: '/services',
-        name: 'services',
-        component: defineAsyncComponent(() => import('@/pages/ServicesPage.vue'))
+        path: '/store',
+        name: 'store',
+        component: defineAsyncComponent(() => import('@/pages/StorePage.vue'))
+    },
+    {
+        path: '/store/headphones',
+        name: 'headphones',
+        component: defineAsyncComponent(() => import('@/pages/StorePage.vue'))
     },
     {
         path: '/about',
