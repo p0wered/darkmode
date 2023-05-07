@@ -38,8 +38,8 @@ header{
     width: 100%;
     border-bottom: 1px solid #ffffff1a;
     z-index: 999;
-    background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(25px);
+    background-color: black;
+
     transition: 300ms;
     height: 4rem;
 }
@@ -96,7 +96,7 @@ header a:hover{
 }
 
 .burger-btn {
-    width: 80px;
+    width: 5rem;
     cursor: pointer;
 }
 
@@ -148,8 +148,7 @@ header a:hover{
     height: 100vh;
     transition: 300ms;
     animation: ease-in-out 300ms menu-app-in;
-    background-color: rgba(9, 9, 9, 0.7);
-    backdrop-filter: blur(15px);
+    background-color: #090909;
     z-index: 998;
     touch-action: none;
 }
@@ -193,7 +192,7 @@ header a:hover{
 
 .homepage-main{
     width: 100%;
-    height: 85vh;
+    height: 50rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -229,11 +228,10 @@ header a:hover{
 }
 
 .homepage-title{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 900;
     padding: 1rem;
     margin: 0;
-    letter-spacing: 0.4rem;
     transition: 300ms;
     z-index: 100;
 }
@@ -483,4 +481,31 @@ header a:hover{
     height: 9rem;
     background-position: center;
     background-size: 100%;
+}
+
+.about-section{
+    width: 100%;
+}
+
+.about-main-flexbox{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.about-bold-title{
+    font-size: 4rem;
+    font-weight: 800;
+    color: #9146ff;
+}
+
+.about-desc{
+    color: #848484;
+}
+
+.about-image{
+    background-image: url("../public/assets/about-laptop.png");
 }
