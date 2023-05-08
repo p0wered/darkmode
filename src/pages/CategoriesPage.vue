@@ -36,7 +36,7 @@
       </div>
     </div>
     <div class="special">
-      <div class="special-title-box">
+      <div class="special-title-box" data-aos="fade-left">
         <h2 class="special-title">CHECK OUT OUR CUSTOMS</h2>
         <p class="special-desc">For those seeking a truly unique setup, make it your own with a customized mouse and
           mouse mat.

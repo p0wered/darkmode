@@ -472,7 +472,7 @@ header a:hover{
 
 .download-btn:hover{
     transform: scale(105%);
-    color: #333333;
+    color: black;
     box-shadow: 0 0 40px #9146ffad;
 }
 
@@ -485,6 +485,7 @@ header a:hover{
 
 .about-section{
     width: 100%;
+    background-color: black;
 }
 
 .about-main-flexbox{
@@ -506,6 +507,24 @@ header a:hover{
     color: #848484;
 }
 
+.title-desc{
+    padding: 0 9rem;
+    text-align: center;
+}
+
 .about-image{
+    height: 29rem;
+    width: 100%;
     background-image: url("../public/assets/about-laptop.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-flexbox{
+    padding: 2rem 8rem;
+}
+
+[data-aos^="fade"][data-aos^="fade"].aos-animate {
+    transition: 300ms; !important;
 }

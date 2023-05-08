@@ -45,6 +45,7 @@ export default {
     }
   },
 }
+AOS.init();
 </script>
 
 <style scoped>

@@ -137,6 +137,16 @@
         width: 100%;
         height: calc(10rem + 24vw);
     }
+    .title-desc{
+        text-align: left;
+        padding: 0;
+    }
+    .text-flexbox{
+        padding: 2rem;
+    }
+    .about-image{
+        height: 15rem;
+    }
 }
 
 @media screen and (max-width: 576px){

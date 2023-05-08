@@ -1,10 +1,10 @@
 <template>
   <section class="homepage-main" :style="{backgroundImage: imageDesktop}">
     <a class="homepage-main-btn" href="#"></a>
-    <div class="homepage-text-box fb-column-center">
+    <div class="homepage-text-box fb-column-center" data-aos="fade-up">
       <h1 class="homepage-title">{{sectionTitle}}</h1>
-      <p class="homepage-desc">{{sectionDesc}}</p>
-      <div class="buy-item-flexbox">
+      <p class="homepage-desc" data-aos="fade-up">{{sectionDesc}}</p>
+      <div class="buy-item-flexbox" data-aos="fade-up">
         <a class="buy-item">
           <p>{{buttonFirst}}</p>
           <i class="bi bi-chevron-right"></i>

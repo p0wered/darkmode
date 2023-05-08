@@ -3,7 +3,7 @@
     <div class="container">
       <div class="header-layout">
         <div>
-          <img class="logo" src="/assets/logo.webp" alt="logo">
+          <img class="logo" src="../src/assets/logo-s.png" alt="logo">
         </div>
         <div class="d-none d-lg-flex" style="font-size: 16px;">
           <ul style="padding: 0">

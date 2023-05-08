@@ -1,9 +1,9 @@
 <template>
   <div class="section-top"></div>
   <div class="container">
-    <div class="hardware-title-block">
+    <div class="hardware-title-block" data-aos="fade-left">
       <h2 class="software-title">SOFTWARE</h2>
-      <p class="hardware-desc">Razer offers a wide range of gaming software to complete your Razer gaming experience,
+      <p class="hardware-desc" data-aos="fade-left">Razer offers a wide range of gaming software to complete your Razer gaming experience,
         whether it is allowing you to game lag-free, stream with customized Chroma effects, or amp up your audio for
         competitive gaming advantage.
       </p>

@@ -2,7 +2,7 @@
   <div class="software-tint"></div>
   <section class="software-main" :style="{backgroundImage: softwareUrl}">
     <div class="container">
-      <div class="software-text-box fb-column-center">
+      <div class="software-text-box fb-column-center" data-aos="fade-up">
         <div class="software-logo" :style="{backgroundImage: softwareImage}"></div>
         <h1 class="homepage-title">{{softwareTitle}}</h1>
         <p class="software-desc" style="margin: 0">{{softwareDesc}}</p>
