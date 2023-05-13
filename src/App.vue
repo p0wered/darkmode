@@ -21,27 +21,29 @@
             <li><router-link :to="{name:'account'}"><i class="bi bi-person-circle"></i></router-link></li>
           </ul>
         </div>
-        <div class="menu-icon d-block d-lg-none" @click="headerButton()">
-          <div class="burger-btn" :class="{'active': xActive, 'not-active': iconActive}">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
+        <div class="burger-btn-overflow d-block d-lg-none">
+            <div class="menu-icon" @click="headerButton()">
+                <div class="burger-btn" :class="{'active': xActive, 'not-active': iconActive}">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
         </div>
       </div>
     </div>
   </header>
   <div class="mobile-menu d-lg-none" :style="{display:menuDisplay}">
     <ul class="main-menu-list">
-      <li><router-link :to="{name:'home'}" @click="headerButton()">HOME</router-link></li>
-      <li><router-link :to="{name:'categories'}" @click="headerButton()">CATEGORIES</router-link></li>
-      <li><router-link :to="{name:'software'}" @click="headerButton()">SOFTWARE</router-link></li>
-      <li><router-link :to="{name:'store'}" @click="headerButton()">STORE</router-link></li>
-      <li><router-link :to="{name:'about'}" @click="headerButton()">ABOUT</router-link></li>
+      <li><router-link :to="{name:'home'}" @click="autoClose">HOME</router-link></li>
+      <li><router-link :to="{name:'categories'}" @click="autoClose">CATEGORIES</router-link></li>
+      <li><router-link :to="{name:'software'}" @click="autoClose">SOFTWARE</router-link></li>
+      <li><router-link :to="{name:'store'}" @click="autoClose">STORE</router-link></li>
+      <li><router-link :to="{name:'about'}" @click="autoClose">ABOUT</router-link></li>
       <ul class="side-menu-list fb-row-center">
-        <li><router-link :to="{name:'wishlist'}" @click="headerButton()"><i class="bi bi-heart"></i></router-link></li>
-        <li><router-link :to="{name:'cart'}" @click="headerButton()"><i class="bi bi-bag"></i></router-link></li>
-        <li><router-link :to="{name:'account'}" @click="headerButton()"><i class="bi bi-person-circle"></i></router-link></li>
+        <li><router-link :to="{name:'wishlist'}" @click="autoClose"><i class="bi bi-heart"></i></router-link></li>
+        <li><router-link :to="{name:'cart'}" @click="autoClose"><i class="bi bi-bag"></i></router-link></li>
+        <li><router-link :to="{name:'account'}" @click="autoClose"><i class="bi bi-person-circle"></i></router-link></li>
       </ul>
     </ul>
     <div>
@@ -70,6 +72,11 @@
         else{
           this.menuDisplay = 'flex'
         }
+      },
+      autoClose() {
+        this.xActive = !this.xActive
+        this.iconActive = !this.iconActive
+        this.menuDisplay = 'none';
       }
     }
   }

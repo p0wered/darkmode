@@ -1,6 +1,6 @@
 <template>
   <div class="homepage-panel-row">
-    <div class="homepage-panel-item" :style="{backgroundImage: leftPanelUrl}">
+    <div class="homepage-panel-item" id="hpi-right" :style="{backgroundImage: leftPanelUrl}">
       <a class="homepage-panel-btn" href="#"></a>
       <div class="panel-text fb-column-center">
         <h3 class="homepage-panel-title" data-aos="fade-up">{{leftPanelTitle}}</h3>

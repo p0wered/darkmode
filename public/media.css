@@ -109,6 +109,15 @@
     }
 }
 
+@keyframes special-app {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .homepage-panel-row{
         flex-direction: column;
@@ -121,6 +130,9 @@
     .hardware-item{
         height: 16rem;
         width: 13.125rem;
+    }
+    #hpi-right{
+        border-right: none;
     }
 }
 
@@ -163,7 +175,7 @@
     .hardware-item{
         margin: 1rem 0;
         width: 100%;
-        height: 50vh;
+        height: 25rem;
     }
     .selection-temp{
         width: 85%;

@@ -72,7 +72,7 @@ header li{
 .logo{
     display: flex;
     align-items: center;
-    padding: 0.625rem 4.125rem 0.625rem 0.625rem;
+    padding: 0.625rem 4.125rem 0.625rem 0;
     height: 65px;
 }
 
@@ -96,8 +96,17 @@ header a:hover{
 }
 
 .burger-btn {
+    -webkit-appearance: none;
     width: 5rem;
     cursor: pointer;
+}
+
+.burger-btn-overflow{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .burger-btn span {
@@ -296,8 +305,11 @@ header a:hover{
     background-repeat: no-repeat;
     text-align: center;
     border-bottom: 1px solid #9146ff;
-    border-right: 1px solid #9146ff;
     overflow: hidden;
+}
+
+#hpi-right{
+    border-right: 1px solid #9146ff;
 }
 
 .homepage-panel-btn{
@@ -334,7 +346,8 @@ header a:hover{
 }
 
 .hardware-title{
-    font-weight: 800;
+    font-size: 40px; !important;
+    font-weight: 900;
     transition: 300ms;
 }
 
@@ -346,7 +359,7 @@ header a:hover{
 .item-class-selection{
     background-color: rgb(26, 26, 26);
     padding: 1rem 0;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .hardware-item{
@@ -527,4 +540,27 @@ header a:hover{
 
 [data-aos^="fade"][data-aos^="fade"].aos-animate {
     transition: 300ms; !important;
+}
+
+.store-title{
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    padding: 2rem;
+}
+
+.filter-block{
+    background-color: rgb(26, 26, 26);
+    padding: 1rem;
+}
+
+.inner-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.inner-list li{
+    font-size: 14px;
+    padding: 0.325rem 0;
 }
