@@ -552,15 +552,151 @@ header a:hover{
 .filter-block{
     background-color: rgb(26, 26, 26);
     padding: 1rem;
+    height: 100%;
 }
 
 .inner-list{
     list-style: none;
-    margin: 0;
+    margin: 0 0 0.325rem 0;
     padding: 0;
 }
 
 .inner-list li{
     font-size: 14px;
     padding: 0.325rem 0;
+}
+
+.checkbox-label{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 300ms;
+}
+
+.label-text{
+    color: #848484;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.label-text:hover{
+    color: #686868;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.filter-collapse{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: .325rem 0 .325rem 0;
+}
+
+.filter-collapse p{
+    margin: 0;
+    font-weight: 500;
+    transition: 300ms;
+}
+
+.filter-collapse:hover{
+    color: #848484;
+}
+
+.bi-caret-down-fill{
+    width: 18px;
+    height: 23px;
+    transition: 300ms;
+    transform-origin: center;
+}
+
+.bi-check{
+    font-size: 18px;
+}
+
+.bi-check::before{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-down{
+    transform: rotate(180deg);
+}
+
+.origin-checkbox{
+    opacity: 0;
+}
+
+.custom-checkbox{
+    width: 1.125em;
+    height: 1.125em;
+    background-color: white;
+    transition: 300ms;
+    margin-right: 1px;
+}
+
+.custom-checkbox:hover{
+    background-color: #848484;
+}
+
+.origin-checkbox:checked ~ .custom-checkbox{
+    background-color: #9146ff;
+}
+
+.origin-checkbox:checked ~ .bi-check::before{
+    display: none;
+}
+
+
+.reset-btn{
+    text-decoration: none;
+    color: #9146ff;
+    transition: 300ms;
+    padding-top: 1rem;
+}
+
+.reset-btn:hover{
+    color: #6f36c4;
+}
+
+.store-flexbox{
+    display: flex;
+    justify-content: center;
+}
+
+.cards-grid{
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.store-item-wireframe{
+    width: 100%;
+    height: calc(17rem + 6vw);
+    background-color: rgb(26, 26, 26);
+    overflow: hidden;
+    background-position: center top;
+}
+
+.item-img{
+    width: 100%;
+    height: 17rem;
+    background-image: url("/public/items/asus-rtx-4090.png");
+    background-color: #131313;
+    background-position: center;
+    background-size: 75%;
+    background-repeat: no-repeat;
+}
+
+.item-desc-block{
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
 }

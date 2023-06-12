@@ -1,7 +1,14 @@
 {
   "gpus": [
     {
-      "title": "gpu"
+      "title": "gpu",
+      "description": "it is gpu",
+      "imageUrl": ""
+    },
+    {
+      "title": "gpu",
+      "description": "it is gpu",
+      "imageUrl": ""
     }
   ]
 }

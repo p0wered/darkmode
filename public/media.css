@@ -159,6 +159,18 @@
     .about-image{
         height: 15rem;
     }
+    .cards-grid{
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .cards-grid{
+        grid-template-columns: repeat(2, 1fr);
+        padding: .325rem;
+        gap: 1.125rem;
+    }
 }
 
 @media screen and (max-width: 576px){
